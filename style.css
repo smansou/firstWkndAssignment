@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: block;
+    height: 300px;
+width: 300px; 
+}
+   
+.container centerImage img{
+float: left;
+display: block;
+max-width: 30%;
+height: auto;
+
+
+}
+.mainText{
+    text-align: center;
+    padding: 10px ;
+    margin: auto;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+#navbar a{
+color: #000;
+}
+#navbar h1{
+    float: left;
+    padding-top: 40px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+    padding-top: 35px;
+    padding-right: 35px;
+    
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+   
+}
+#navbar ul li a:hover{
+    color: #d3d3d3;
+}
+.logo{
+    float: left;
+    max-width: 10%;
+    padding-left: 40px;
+}
+
